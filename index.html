@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site gym</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="#home" class="items-navigation">Accueil</a></li>
+            <li><a href="#equipements" class="items-navigation">Matériel</a></li>
+            <li><a href="#tarifs" class="items-navigation">Tarifs</a></li>
+            <li><a href="#contact" class="items-navigation">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="accueil" id="home">
+        <div class="bloc-gauche">
+            <h1>gym yonos</h1>
+            <P>Depassez vos limites.</P>
+            <P>Entrainez-vous.</P>
+            <P>Progressez.</P>
+            <div class="cont-btn-home">
+                <a href="#equipements" class="btn-accueil b1">Equipement</a>
+                <a href="#contact" class="btn-accueil b2">Contact</a>
+            </div>
+
+        </div>
+        <div class="bloc-droit">
+            <img src="ressources/gym-accueil.jpg">
+        </div>
+    </div>
+
+    <h2 class="titre-section">SE (RE)PRENDRE EN MAIN</h2>
+    <section class="section-info">
+        <div class="row">
+            <div class="col col-md-6 col-xl-4">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="ressources/img-info-1.jpg" class="card-img-top" alt="femme">
+                    <div class="card-body">
+                        <h5 class="card-title">Faire parti d'un groupe</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <img src="ressources/points.png" alt="deco" class="deco-info">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col col-md-6 col-xl-4">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="ressources/img-info-2.jpg" class="card-img-top" alt="homme">
+                    <div class="card-body">
+                        <h5 class="card-title">Atteindre ses objectifs</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col col-md-4 col-xl-4">
+
+                <div class="card" style="width: 18rem;">
+                    <img src="ressources/img-info-3.jpg" class="card-img-top" alt="appareil muscu">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploser ses limites</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <section id="choix">
+        <div class="row">
+            <div class="col-xs-12 col-xl-6">
+                <h3>Salle de sport</h3>
+                <p>Loreme ipsum dolor sit amet consectetur adipisicing elit. Possimus, odit sddsdsds?</p>
+                <button class="btn-choix" type="button">Voir les prix</button>
+            </div>
+            <div class="col-xs-12 col-xl-6">
+                <h3>Cross fit</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, odit sddsdsds?</p>
+                <button class="btn-choix" type="button">Voir les prix</button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <h2 class="titre-equipement">Les équipements</h2>
+    <section id="equipements">
+
+        <button type="button" data-index="1" class="btn-modale"></button>
+        <button type="button" data-index="2" class="btn-modale"></button>
+        <button type="button" data-index="3" class="btn-modale"></button>
+        <button type="button" data-index="4" class="btn-modale"></button>
+        <button type="button" data-index="5" class="btn-modale"></button>
+        <button type="button" data-index="6" class="btn-modale"></button>
+        <button type="button" data-index="7" class="btn-modale"></button>
+        <button type="button" data-index="8" class="btn-modale"></button>
+        <button type="button" data-index="9" class="btn-modale"></button>
+
+        <div class="bloc-modale">
+
+            <div class="bloc-img">
+
+                <img src="ressources/img9-equip.jpg" alt="materiel sport">
+                <button class="fermeture">X</button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="parallax">
+        <p class="parallax-txt">COURAGE .</p>
+
+    </section>
+
+    <h2 class="titre-tarifs">TARIFS</h2>
+
+    <section id="tarifs">
+        <div class="carte-tarif">
+            <h3>BASIQUE</h3>
+            <p class="prix-carte"><span>20</span>/mois</p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Salle libre
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                24H/24
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/cross.svg" alt="emoji" class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/cross.svg" alt="emoji" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/cross.svg" alt="emoji" class="img-info-carte">
+                Massage
+            </p>
+
+        </div>
+        <div class="carte-tarif">
+            <h3>COMPLET</h3>
+            <p class="prix-carte"><span>40</span>/mois</p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Salle libre
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                24H/24
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/cross.svg" alt="emoji" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/cross.svg" alt="emoji" class="img-info-carte">
+                Massage
+            </p>
+
+        </div>
+        <div class="carte-tarif">
+            <h3>PRO</h3>
+            <p class="prix-carte"><span>60</span>/mois</p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Salle libre
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                24H/24
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Coach
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Crossfit
+            </p>
+            <p class="infos-carte">
+                <img src="ressources/check.svg" alt="emoji" class="img-info-carte">
+                Massage
+            </p>
+
+        </div>
+
+
+    </section>
+
+    <h2 class="titre-contact">CONTACT</h2>
+
+    <section id="contact">
+        <form>
+            <label for="prenom">PRENOM</label>
+            <input type="text" id="prenom"><br>
+
+            <label for="prenom">NOM</label>
+            <input type="text" id="nom">
+
+            <label for="txt-area">MESSAGE</label>
+            <textarea id="txt-area"></textarea>
+            <button class="form-btn" type="submit">ENVOYER</button><br>
+
+
+
+        </form>
+    </section>
+    <footer>
+
+        <p>Tous droits réservés ©</p>
+    </footer>
+
+
+
+    <script src="apps.js"></script>
+</body>
+
+</html>
